@@ -2,21 +2,160 @@
 <html lang="en">dd or
   <head>
     <meta charset="utf-8">
-    <title>me</title>
-  </head>
+    <title>me.html</title>
+  </head><h1 style="color:blue;">This what i like</h1>
   <body>
+    <html>
+<body style="background-image:url('Welcome.jpg')">
+
+<h2>Background Image</h2>
+
+<p>Welcome</p>
+</body>
+</html>
+    <div class="me.html">
+  </div>
+</div
+</style>
+</head>
+<body>
+
+<h3>Fade in Tabs</h3>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event,'Gym')">Fun fact #1</button>
+  <button class="tablinks" onclick="openCity(event, '#2')">Fun fact #2</button>
+  <button class="tablinks" onclick="openCity(event, '#3')">Fun fact #3</button>
+</div>
+
+<div id="Gym" class="tabcontent">
+  <h3>#1</h3>
+  <p>I enjoy going to the gym.</p>
+</div>
+
+<div id="#2" class="tabcontent">
+  <h3>#2</h3>
+  <p>Enjoy eating In n out.</p> 
+</div>
+
+<div id="#3" class="tabcontent">
+  <h3>#3</h3>
+  <p>I have 2 dogs.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+     
+</body>
+</html> 
+
     <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
+    <a href="portfolio.html">Portfolio.html</a>
     <a href="http://www.youtube.com/">youtube</a>
     <a href="https://www.google.com">google</a>
     <a href="https://www.apple.com/mac/">apple</a>
-    <a href="me">me</a>
-<h1> Info about Jorday </h1>
-    <img src="images/in-n-out-president-explains-why-the-burger-chain-probably-wont-expand-to-the-east-coast.jpg" height="250">
-    <img src="images/batman.jpg" height="250"
+    <a href="me.html">me.html</a>
+    <center><h1 {color: blue;}>Info about Jorday </h1></center>
+    <center><img src="images/in-n-out-president-explains-why-the-burger-chain-probably-wont-expand-to-the-east-coast.jpg" height="250"></center>
+    <center><img src="images/batman.jpg" height="250"></center>
     <p>I love <strong> in </strong>in n out !</p>
     <p>WASSSSUPPPP</p>
-    <p>Wanna built a website</p>
-  </body>
-  
+     <div style="background-color:blue;color:white;padding:20px;">
+       <h2>My website</h2>
+    <p>My website will have pictures.</p>
+    </div>
+   <body style ="background-image:url('Welcome.jpg')" height="250"
+</htmL>
+     <!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;">Welocme</h1>
+
+</body>
 </html>
+
+<html>
+<head>
+<style>
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+</style>
+</head>
+<body>
+
+<h2>Flip an Image</h2>
+<p>Move your mouse over the image.</p>
+
+<img src="img_paris.jpg" alt="Paris" width="400" height="300">
+
+</body>
+</html> 
+
+<html>
+<head>
+<style>
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
